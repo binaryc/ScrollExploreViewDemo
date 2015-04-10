@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8F724C0D1AD7CAFD008864A0 /* Rotate3DView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F724C0C1AD7CAFD008864A0 /* Rotate3DView.m */; };
 		8F81E0451ABFAC2100F91928 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F81E0441ABFAC2100F91928 /* main.m */; };
 		8F81E0481ABFAC2100F91928 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F81E0471ABFAC2100F91928 /* AppDelegate.m */; };
 		8F81E04B1ABFAC2100F91928 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F81E04A1ABFAC2100F91928 /* ViewController.m */; };
@@ -33,6 +34,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8F724C0B1AD7CAFD008864A0 /* Rotate3DView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Rotate3DView.h; sourceTree = "<group>"; };
+		8F724C0C1AD7CAFD008864A0 /* Rotate3DView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Rotate3DView.m; sourceTree = "<group>"; };
 		8F81E03F1ABFAC2100F91928 /* ScrollExploreViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScrollExploreViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F81E0431ABFAC2100F91928 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8F81E0441ABFAC2100F91928 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -94,6 +97,8 @@
 		8F81E0411ABFAC2100F91928 /* ScrollExploreViewDemo */ = {
 			isa = PBXGroup;
 			children = (
+				8F724C0B1AD7CAFD008864A0 /* Rotate3DView.h */,
+				8F724C0C1AD7CAFD008864A0 /* Rotate3DView.m */,
 				8F81E06C1ABFAEFB00F91928 /* Images */,
 				8F81E0681ABFAC4E00F91928 /* ScrollExploreView */,
 				8F81E0461ABFAC2100F91928 /* AppDelegate.h */,
@@ -262,6 +267,7 @@
 			files = (
 				8F81E04B1ABFAC2100F91928 /* ViewController.m in Sources */,
 				8F81E06B1ABFAC8300F91928 /* ScrollExplorView.m in Sources */,
+				8F724C0D1AD7CAFD008864A0 /* Rotate3DView.m in Sources */,
 				8F81E0481ABFAC2100F91928 /* AppDelegate.m in Sources */,
 				8F81E0451ABFAC2100F91928 /* main.m in Sources */,
 			);
@@ -456,6 +462,7 @@
 				8F81E0641ABFAC2100F91928 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8F81E0651ABFAC2100F91928 /* Build configuration list for PBXNativeTarget "ScrollExploreViewDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -464,6 +471,7 @@
 				8F81E0671ABFAC2100F91928 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
